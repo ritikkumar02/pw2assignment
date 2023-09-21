@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    background-color: black;
+    gap: 5%;
+
+}
+header section{
+    display: flex;
+    padding-top: 1%;
+    gap: 10%;
+    color: aliceblue;
+    position: sticky;
+}
+nav{
+    padding-left: 55%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.herosection{
+    
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+ 
+}
+button{
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    line-height: 22px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 14px 22px;
+    cursor: pointer;
+}
+span{
+    color: green;
+}
+.info h1{
+    font-size: 60px;
+}
